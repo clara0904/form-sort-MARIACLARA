@@ -1,0 +1,44 @@
+﻿.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.866);
+}
+
+.table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+}
+
+.table th,
+.table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #f4f4f4;
+}
+
+.submit{
+    padding: 0.4rem 0.5rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    color: #fff; 
+    font-size: 0.9rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 2rem;
+    border: 2px solid rgb(10, 102, 10); 
+    background-color: rgb(10, 102, 10);
+    float: right; 
+}
+
+.submit:hover {
+    border-color: rgb(8, 79, 8);
+    background-color: rgb(8, 79, 8);
+}
